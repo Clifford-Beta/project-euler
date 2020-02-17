@@ -17,7 +17,6 @@ func nthPrime(number int) int {
 	for   {
 		if  isPrime(primeCandidate){
 			n += 1
-			//fmt.Println("prime candidate ", primeCandidate, isPrime(primeCandidate), n)
 		}
 
 		if n == number {
