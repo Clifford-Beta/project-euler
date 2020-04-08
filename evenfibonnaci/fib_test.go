@@ -1,27 +1,6 @@
-package main
-//package evenfibonnaci
+package evenfibonnaci
 
 import "testing"
-
-//func TestFibonacci(t *testing.T) {
-//	type args struct {
-//		n uint
-//	}
-//	tests := []struct {
-//		name string
-//		args args
-//		want uint64
-//	}{
-//		// TODO: Add test cases.
-//	}
-//	for _, tt := range tests {
-//		t.Run(tt.name, func(t *testing.T) {
-//			if got := Fibonacci(tt.args.n); got != tt.want {
-//				t.Errorf("Fibonacci() = %v, want %v", got, tt.want)
-//			}
-//		})
-//	}
-//}
 
 func TestFibonacci(t *testing.T) {
 	data := []struct {

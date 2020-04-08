@@ -18,6 +18,12 @@ func Test_findSumOfAllMultiplesNumbers(t *testing.T) {
 				upperLimit: 10,
 			},
 			want: 23},
+		{name: "multiples of 3 or 5 below 10",
+			args: args{
+				numbers:    []int{3, 5,7},
+				upperLimit: 10,
+			},
+			want: 30},
 		{name: "multiples of 3 or 5 below 15",
 			args: args{
 				numbers:    []int{3, 5},

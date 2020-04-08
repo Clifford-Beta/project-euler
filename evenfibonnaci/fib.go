@@ -1,8 +1,4 @@
-package main
-
-import "fmt"
-
-//package evenfibonnaci
+package evenfibonnaci
 
 func Fibonacci(n uint) uint64 {
 
@@ -43,7 +39,7 @@ func FibonacciSequence(n uint) []uint64 {
 func sumEvenTermms(terms []uint64) uint64 {
 	sum := uint64(0)
 	for _, v := range terms {
-		if v % 2 == 0 && v < 4000000 {
+		if v%2 == 0 && v < 4000000 {
 			sum = sum + v
 		} else if v >= 4000000 {
 			break
@@ -51,9 +47,4 @@ func sumEvenTermms(terms []uint64) uint64 {
 
 	}
 	return sum
-}
-
-func main()  {
-	fmt.Println(sumEvenTermms(FibonacciSequence(200)))
-
 }
